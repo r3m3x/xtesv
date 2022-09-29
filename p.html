@@ -22,7 +22,7 @@ var t="203c73637269707420747970653d27746578742f6a617661736372697074273e0d0a20202
                 results = regex.exec(location.search);
         return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
     }
-    id = getParameterByName('p');
+    id = getParameterByName('p.html');
     if (getParameterByName('embed')) {
         embed = getParameterByName('embed');
     } else {
